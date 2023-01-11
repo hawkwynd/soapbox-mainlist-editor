@@ -1,0 +1,61 @@
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 97.2%;
+    z-index: 100;
+  }
+  .sticky + #results {
+      
+      padding-top: 102px;
+      
+  }
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+section.header{
+    background: black;
+    color: white;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+i.fa,i.fas{
+    margin-right: 6px
+}
+.fas, .far{font-weight: 900;}
+
+.bs-example{
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    width: 610px;
+    opacity: 1;
+    z-index: 100;
+}
+
+.col.actionCol{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.listinfo span{
+    padding: 0 10px;
+}
